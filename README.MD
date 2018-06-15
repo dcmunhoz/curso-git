@@ -18,6 +18,7 @@ Esse comando mostra toda a situação do repositorio, é exibido os arquivos que
 ## Adicionar arquivos
 para adicionar os arquivos untrackeds na area de modificações para commits, utiliza-se:
 -- git add [nome-arquivo]
+-- git add [.] (adiciona todos os arquivos)
 
 ## Criar um Commit
 Para isso, basta utilizar o seguinte comando:
