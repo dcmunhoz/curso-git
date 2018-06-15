@@ -43,6 +43,6 @@ Caso eu tenha adicionado um arquivo para commit e queira desfazer, basta usar:
 -- git reset HEAD
 
 Ou então, caso eu já tenha feito um commit, porem preciso desfazer o commit, utiliza-se o comando:
--- git reset --soft (Volta o arquivo em staged, pronto para ser comitado)
--- git reset --mixed (Volta o arquivo antes do staged, somente com a modificação feita)
--- git reset --hard (apaga todas as edições feita)
+-- git reset --soft [HASH] (Volta o arquivo em staged, pronto para ser comitado)
+-- git reset --mixed [HASH] (Volta o arquivo antes do staged, somente com a modificação feita)
+-- git reset --hard [HASH] (Apaga todas as edições feita)
