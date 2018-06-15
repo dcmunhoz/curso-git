@@ -33,3 +33,16 @@ Podemos visualizar os logs de 2 formas, a primeira é uma visão completa e a se
 ## Exibir modificações
 Para exibir as modificações de um arquivo antes de fazer um commit, utilizamos o comando:
 -- git diff
+
+## Desfazendo as coisas
+Para desfazer algo utilizamos alguns comandos dependendo da situação.
+Caso eu edite o arquivo porem não tenha adiciona ele para commit, posso utilizar o comando:
+-- git checkout [nome-arquivo]
+
+Caso eu tenha adicionado um arquivo para commit e queira desfazer, basta usar:
+-- git reset HEAD
+
+Ou então, caso eu já tenha feito um commit, porem preciso desfazer o commit, utiliza-se o comando:
+-- git reset --soft (Volta o arquivo em staged, pronto para ser comitado)
+-- git reset --mixed (Volta o arquivo antes do staged, somente com a modificação feita)
+-- git reset --hard (apaga todas as edições feita)
