@@ -22,3 +22,9 @@ para adicionar os arquivos untrackeds na area de modificações para commits, ut
 ## Criar um Commit
 Para isso, basta utilizar o seguinte comando:
 -- git commit -m "Add Readme"
+
+## Visualizar logs
+Podemos visualizar os logs de 2 formas, a primeira é uma visão completa e a segunda uma versão simplificada:
+-- git log (Visão completa)
+-- git log --oneline (Versão simplificada)
+-- git log --graph (Exibe a arvore de branches)
