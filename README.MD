@@ -28,3 +28,7 @@ Podemos visualizar os logs de 2 formas, a primeira é uma visão completa e a se
 -- git log (Visão completa)
 -- git log --oneline (Versão simplificada)
 -- git log --graph (Exibe a arvore de branches)
+
+## Exibir modificações
+Para exibir as modificações de um arquivo antes de fazer um commit, utilizamos o comando:
+-- git diff
