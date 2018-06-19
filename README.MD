@@ -73,3 +73,10 @@ Para adicionar um repositório remodo, apos crialo, copie o link de clone e util
 git remote add [nome-referencia-repositorio] [link-repositório]
 ex: git remote add github https://github.com/dcmunhoz/curso-git.git
 ```
+
+## Enviar alteração para repositório remoto
+Para que uma modificação seja efetivada no repositório remoto, é necessário utilizar o seguinte comando
+```
+git push [repositorio-remoto] [repositorio-local]
+ex: git push github master
+```
