@@ -66,3 +66,10 @@ git reset --soft [HASH] (Volta o arquivo em staged, pronto para ser comitado)
 git reset --mixed [HASH] (Volta o arquivo antes do staged, somente com a modificação feita)
 git reset --hard [HASH] (Apaga todas as edições feita)
 ```
+
+## Relacionando Repositório Remoto
+Para adicionar um repositório remodo, apos crialo, copie o link de clone e utilize o seguinte comando:
+```
+git remote add [nome-referencia-repositorio] [link-repositório]
+ex: git remote add github https://github.com/dcmunhoz/curso-git.git
+```
