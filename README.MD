@@ -108,6 +108,3 @@ Para deletar um branch, basta executarmos o comando:
 ```
 git branch -D [nome-branch]
 ```
-
-
-** ALTERAÇÃO FEITA **
