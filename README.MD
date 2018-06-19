@@ -87,8 +87,8 @@ Para clonarmos um repositório open source, basta copiarmos o link disnponibiliz
 git clone [link-repositório] [nome-pasta-local]
 ```
 
-##Branch
-Para trabalharmos com outros branchs, precisamos criar eles, para isso utilizamos o comando:
+## Branches
+Para trabalharmos com outros branches, precisamos criar eles, para isso utilizamos o comando:
 ```
 git checkout -b [nome-branch]
 ```
