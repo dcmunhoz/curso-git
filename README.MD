@@ -80,3 +80,15 @@ Para que uma modificação seja efetivada no repositório remoto, é necessário
 git push [repositorio-remoto] [repositorio-local]
 ex: git push github master
 ```
+
+## Clonar um repositorio
+Para clonarmos um repositório open source, basta copiarmos o link disnponibilizado na pagina do repositório e executarmos o comando;
+```
+git clone [link-repositório] [nome-pasta-local]
+```
+
+##Branch
+Para trabalharmos com outros branchs, precisamos criar eles, para isso utilizamos o comando:
+```
+git checkout -b [nome-branch]
+```
