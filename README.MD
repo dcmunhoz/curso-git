@@ -92,3 +92,19 @@ Para trabalharmos com outros branchs, precisamos criar eles, para isso utilizamo
 ```
 git checkout -b [nome-branch]
 ```
+
+Para visualizar todos os branch utilizamos o comando
+```
+git branch
+```
+Ele sinaliza o branch que estamos com um * na frente
+
+Para mudar o branch, utilizamos o comando:
+```
+git checkout [nome-branch]
+```
+
+Para deletar um branch, basta executarmos o comando:
+```
+git branch -D [nome-branch]
+```
