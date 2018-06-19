@@ -1,4 +1,4 @@
-## Curso Git e Github
+## Curso Git e Github ~ Hotfix
 
 Este repositorio é apenas uma acompanhamento do curso de Git e Github
 
